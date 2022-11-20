@@ -1,0 +1,31 @@
+.container{
+    background-color: black;
+    width: 1349px;
+    height: 80px;
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+.call-icon{
+width: 43px;
+height: 43px;
+background: #FFE817;
+border-radius: 21.5px;
+}
+.border{
+    margin-left: 72px;
+    margin-top: 18px;
+    display: flex;
+} 
+.call-icon img{
+    margin: 10px;
+}
+.logo_img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.play_img{
+    margin-right: 72px;
+}

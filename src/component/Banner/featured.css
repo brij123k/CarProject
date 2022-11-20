@@ -1,0 +1,20 @@
+.container_featured0{
+    background: #C8F2FF;
+    margin-top: 150px;
+    width: 1349px;
+    height: 320px;
+    text-align: center;
+}
+.contaier_featured{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 12px;
+}
+.img_feat1{
+    margin-right:40px;
+}
+.img_feat3{
+    margin-left:40px;
+}

@@ -1,0 +1,8 @@
+.container_card{
+    padding-top:3.5rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    grid-row-gap: 5rem;
+    border-radius: 5px;
+}
