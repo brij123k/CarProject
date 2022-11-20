@@ -29,6 +29,7 @@
 }
 .price{
 color: #17C7FF;
+font-weight: bold;
 }
 .item_card1 {
     display: flex;
