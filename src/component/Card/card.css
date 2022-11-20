@@ -1,8 +1,46 @@
-.container_card{
-    padding-top:3.5rem;
+.container_card {
+    padding-top: 3.5rem;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-content: center;
     grid-row-gap: 5rem;
     border-radius: 5px;
+}
+.Card {
+    width: 346.9px;
+    height: 317.48px;
+    background: #F2F3F8;
+    border-radius: 18.2577px;
+    margin-left: 51px;
+}
+.img_card img{
+    border-radius: 23px;
+    color: #000000;
+}
+.item_card {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 26px;
+    margin-right: 33px;
+    margin-top: 12px;
+}
+.Vname{
+    font-weight: bold;
+}
+.price{
+color: #17C7FF;
+}
+.item_card1 {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 26px;
+    margin-right: 33px;
+    margin-top: 12px;
+    text-align: center;
+}
+.Petrol{
+    width: 85.58px;
+    height: 27.39px;
+    background: #C8F2FF;
+    border-radius: 5.70552px;
 }
