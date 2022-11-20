@@ -6,7 +6,7 @@ import Icon from "../Header/Icon-color.png"
 const header = () => {
   return (
     <>
-        <div className='container'>
+        <div className='container_header'>
 
             <div className='border'>
               <div className='call-icon'><img src={Icon} alt=""/> </div>

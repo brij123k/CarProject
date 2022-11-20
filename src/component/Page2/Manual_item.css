@@ -1,0 +1,39 @@
+.container_Manual {}
+
+.manual_data {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 45px;
+}
+
+.data {
+    display: flex;
+    margin-left: 23px;
+
+}
+
+.data1 {
+    display: flex;
+    margin-right: 23px;
+}
+
+.share img {
+    align-items: center;
+}
+
+.share {
+    margin-right: 28px;
+    text-align: center;
+}
+
+.Enquire img {
+    align-items: center;
+}
+
+.Enquire {
+    text-align: center;
+}
+
+.content {
+    margin-left: 28px;
+}
