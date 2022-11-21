@@ -1,14 +1,14 @@
-.container_Manual {}
-
 .manual_data {
     display: flex;
     justify-content: space-between;
-    margin-top: 45px;
+    margin-top: 50px;
 }
-
+.arrow img{
+    margin-left: 31px;
+}
 .data {
     display: flex;
-    margin-left: 23px;
+    margin-left: 114px;
 
 }
 
@@ -19,21 +19,65 @@
 
 .share img {
     align-items: center;
+    margin-left: 17px;
 }
 
 .share {
-    margin-right: 28px;
+    margin-right: 0px;
     text-align: center;
 }
 
 .Enquire img {
+    margin-left: 17px;
     align-items: center;
 }
 
 .Enquire {
+    margin-right:141px;
     text-align: center;
 }
 
 .content {
-    margin-left: 28px;
+    margin-left: 15px;
+}
+
+.share button {
+    width: 98px;
+    height: 34px;
+    background-color: aquamarine;
+    border-radius: 50px;
+    border: none;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-left: 12px;
+}
+
+.Enquire button {
+    width: 98px;
+    height: 34px;
+    background-color: aquamarine;
+    border-radius: 50px;
+    border: none;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-left: 12px;
+}
+
+.share span {
+    margin-left: 5px;
+}
+
+.Enquire span {
+    margin-left: 5px;
+}
+
+.CAR_manual img {
+    width: 1054px;
+    height: 480px;
+    margin-top: 19px;
+    margin-left: 142px;
+    margin-right: 80px;
+
 }

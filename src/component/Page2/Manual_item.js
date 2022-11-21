@@ -3,6 +3,7 @@ import '../Page2/Manual_item.css'
 import Arrow from '../Page2/arrow.png'
 import Shareimg from '../Page2/share.png'
 import Enquire from '../Page2/question.png'
+import CAR_MANUAL from '../Page2/image8.png'
 const Manual_item = () => {
   return (
     <div className='container-Manual'>
@@ -12,9 +13,12 @@ const Manual_item = () => {
             <div className='content'>2020 KIA Seltos HTK Plus 1.5 Petrol Manual</div>
             </div>
             <div className='data1'>
-                <div className='share'><button><img src={Shareimg} alt=''/>Share</button></div>
-                <div className='Enquire'><button><img src={Enquire} alt=''/>Enquire</button></div>
+                <div className='share'><button><img src={Shareimg} alt=''/><span>Share</span></button></div>
+                <div className='Enquire'><button><img src={Enquire} alt=''/><span>Enquire</span></button></div>
             </div>
+        </div>
+        <div className='CAR_manual'>
+          <div className=''><img src={CAR_MANUAL}alt=''/></div>
         </div>
     </div>
   )
