@@ -39,9 +39,62 @@ font-weight: bold;
     margin-top: 12px;
     text-align: center;
 }
-.Petrol{
+.Petrol1{
     width: 85.58px;
     height: 27.39px;
     background: #C8F2FF;
     border-radius: 5.70552px;
+}
+.Petrol2{
+    width: 85.58px;
+    height: 27.39px;
+    background: #C8F2FF;
+    border-radius: 5.70552px;
+}
+.Petrol3{
+    width: 85.58px;
+    height: 27.39px;
+    background: #C8F2FF;
+    border-radius: 5.70552px;
+}
+@media screen and (max-width: 700px) {
+    .container_card{
+        display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media screen and (max-width: 700px) {
+    .img_card img{
+        width: 211px;
+    }
+}
+@media screen and (max-width: 700px) {
+    .Card{
+        width: 213px;
+        height: 236px;
+        margin-left: 81px;
+    }
+}
+@media screen and (max-width: 700px) {
+    .item_card1{
+        /* padding:24px; */
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 700px) {
+    .Petrol2{
+        margin-right: 12px;
+        height: 21px;
+    }
+}
+@media screen and (max-width: 700px) {
+    .Petrol1{
+        margin-right: 12px;
+        height: 21px;
+    }
+}
+@media screen and (max-width: 700px) {
+    .Petrol3{
+        height: 21px;
+    }
 }
