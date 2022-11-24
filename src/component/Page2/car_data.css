@@ -25,3 +25,30 @@
 .ICON_CAR{
     margin-right: -190px;
 }
+@media screen and (max-width: 700px) {
+    .content{
+        width: 321px;
+        font-size: 11px;
+        font-weight: bold;
+    }
+}
+@media screen and (max-width: 700px) {
+    .data{
+        margin-left: -29px;
+        display: grid;
+        grid-template-columns: repeat(2,0fr);
+    }
+}
+@media screen and (max-width: 700px) {
+    .CAR_manual img{
+        width: 325px;
+        height: 195px;
+        margin-left: 18px;
+    }
+}
+@media screen and (max-width: 700px) {
+    .data1{
+        margin-left: -223px;
+        margin-top: 23px;
+    }
+}

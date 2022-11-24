@@ -60,37 +60,57 @@ font-weight: bold;
 @media screen and (max-width: 700px) {
     .container_card{
         display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 0fr);
     }
 }
 @media screen and (max-width: 700px) {
     .img_card img{
-        width: 211px;
+        width: 149px;
+height: 96px;
     }
 }
 @media screen and (max-width: 700px) {
     .Card{
-        width: 213px;
-        height: 236px;
-        margin-left: 81px;
+        width: 149px;
+height: 200px;
+
+margin: 10px;
     }
 }
 @media screen and (max-width: 700px) {
     .item_card1{
         /* padding:24px; */
         font-size: 12px;
+margin-left: 2px;
+text-align: center;
+    }
+}
+@media screen and (max-width: 700px) {
+    .item_card{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 700px) {
+    .Vname{
+        margin-left: -15px;
+    }
+}
+@media screen and (max-width: 700px) {
+    .price{
+        margin-left: 12px;
     }
 }
 @media screen and (max-width: 700px) {
     .Petrol2{
-        margin-right: 12px;
+        margin-right: 10px;
         height: 21px;
     }
 }
 @media screen and (max-width: 700px) {
     .Petrol1{
-        margin-right: 12px;
+        margin-right: 10px;
         height: 21px;
+        
     }
 }
 @media screen and (max-width: 700px) {
