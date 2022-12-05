@@ -10,6 +10,7 @@ const featured = () => {
         <div className='head'><h3>Featured Deals</h3></div>
         <div className='contaier_featured'>
           <div className='img_feat1'><img src={Imga} alt='ereor' /></div>
+
           <div className='img_feat2'><img src={Imgb} alt='error' /></div>
           <div className='img_feat3'><img src={Imgc} alt='error' /></div>
         </div>

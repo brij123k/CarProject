@@ -11,7 +11,7 @@ const home = () => {
         <Banner/>
         <Featured/>
         <Card/>
-        <Page/>
+        {/* <Page/> */}
     </div>
   )
 }

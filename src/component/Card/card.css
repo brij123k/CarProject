@@ -1,23 +1,32 @@
+.item_card1_wrapper {
+
+    padding-left : 10px;
+    padding-right : 10px;
+}
+
 .container_card {
+    margin-left:  60px;
+    margin-right:  60px;
     padding-top: 3.5rem;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
     justify-content: center;
-    grid-row-gap: 5rem;
     border-radius: 5px;
+    row-gap: 20px;
 }
 .Card {
     width: 346.9px;
     height: 317.48px;
     background: #F2F3F8;
     border-radius: 18.2577px;
-    margin-left: 51px;
 }
 .img_card img{
     border-radius: 23px;
     color: #000000;
 }
 .item_card {
+    background-color: #F2F3F8;
     display: flex;
     justify-content: space-between;
     margin-left: 26px;
@@ -33,27 +42,33 @@ font-weight: bold;
 }
 .item_card1 {
     display: flex;
-    justify-content: space-between;
-    margin-left: 26px;
-    margin-right: 33px;
+    justify-content: space-evenly;
+
     margin-top: 12px;
+
     text-align: center;
+    column-gap : 0.25rem;
+
 }
 .Petrol1{
-    width: 85.58px;
-    height: 27.39px;
+    flex: 1;
+    padding : 2px;
+    font-size: auto;
     background: #C8F2FF;
     border-radius: 5.70552px;
 }
 .Petrol2{
-    width: 85.58px;
-    height: 27.39px;
+    flex: 1;
+
+    padding : 2px;
+    font-size: auto;
     background: #C8F2FF;
     border-radius: 5.70552px;
 }
 .Petrol3{
-    width: 85.58px;
-    height: 27.39px;
+    flex: 1;
+    padding : 2px;
+    font-size: auto;
     background: #C8F2FF;
     border-radius: 5.70552px;
 }
@@ -61,6 +76,10 @@ font-weight: bold;
     .container_card{
         display: grid;
     grid-template-columns: repeat(2, 0fr);
+    justify-items: center;
+    justify-content: center;
+    margin-left: 0;
+    margin-right: 0;
     }
 }
 @media screen and (max-width: 700px) {
@@ -81,7 +100,6 @@ margin: 10px;
     .item_card1{
         /* padding:24px; */
         font-size: 12px;
-margin-left: 2px;
 text-align: center;
     }
 }
@@ -100,7 +118,7 @@ text-align: center;
         margin-left: 12px;
     }
 }
-@media screen and (max-width: 700px) {
+/* @media screen and (max-width: 700px) {
     .Petrol2{
         margin-right: 10px;
         height: 21px;
@@ -117,4 +135,4 @@ text-align: center;
     .Petrol3{
         height: 21px;
     }
-}
+} */
