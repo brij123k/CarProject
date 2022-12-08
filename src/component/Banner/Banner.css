@@ -1,15 +1,53 @@
+.banner_car_background {
+    position: absolute;
+    width: 35vw;
+    height: 70vw;
+  
+    z-index: -1;
+    background: linear-gradient(90deg, #17C7FF 14.44%, #1782FF 75.41%);
+    border-radius: 25vw;
+    transform:  rotate(-120deg)   ;
+
+
+}
+.banner_car_bg_container {
+    position: absolute;
+    bottom : 145%;
+    right : 40%;
+}
+
+.banner_car_container {
+
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+    width : 100%;
+ 
+}
+
+.container_baneer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width : 60%;
+    
+
+}
+
 .head_container {
     display: flex;
     justify-content: space-between;
-    margin-top: 105.79px;
+    max-width : 100%;
+    width : 100vw;
+    height: 70vh;;
 }
+
 /* .container_baneer{
    margin-left: 8rem;
 } */
 .item {
     display: flex;
     margin-left: 82.11px;
-    font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
     font-size: 44.9387px;
@@ -22,7 +60,6 @@
 .text_item2 {
     margin-top: 12px;
     margin-left: 82.11px;
-    font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
     font-size: 28.0867px;
@@ -34,8 +71,11 @@
     margin-left: 82.11px;
     width: 389.76px;
     height: 27.68px;
-    background: #E5E5E5;
+    background: #F2F3F8;
     border-radius: 26.8405px;
+    padding: 10px;
+    overflow: hidden;
+
 }
 
 .searchbar img {
@@ -46,10 +86,12 @@
 }
 
 .searchbar input {
-    width: 360.76px;
-    margin-left: 24px;
+    width: 100%;
+    margin-left:  28px;
     height: 21px;
-    background: #E5E5E5;
+    background:  #F2F3F8;
+    color : #8193AB;
+    font-size: 17px;
     border-radius: 26.8405px;
     border: none;
 }
@@ -61,13 +103,45 @@
 }
 
 
+
 .banner_car{
     position: absolute;
-    height: 523px;
-    margin-left: 249px;
-    margin-top: -141px
+    width: 70vw;
+    right : 0%;
+    bottom : 50%;
+    transform: translateY(50%);
+  
 }
 .banner_car .banner_img img{
-    width: 1100px;
-    height: 526px;
+    height: auto;
+    width: 70vw;
+}
+
+.mobile-searchbar {
+    display : none;
+}
+
+@media screen and (max-width: 1024px) {
+    .banner_car_container {
+        display: none;
+    }
+    .head_container {
+        display : none
+    }
+    .mobile-searchbar {
+        display : block;
+        width : 100%;
+        margin-top: 0px;
+        margin-left : 0px;
+    }    
+    .searchbar {
+        padding-top : 15px;
+        padding-bottom: 15px;;
+        padding-left : 0px;
+        padding-right : 0px;
+        margin : 10px;
+        width : auto;
+
+    }
+    
 }
