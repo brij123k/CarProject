@@ -1,3 +1,22 @@
+.car_detail_val {
+    font-weight: bold;
+}
+.container_cardata {
+
+    display : flex;
+    margin-left: 15vw;
+    margin-right: 15vw;
+
+}
+
+.container_cardata_item {
+
+    flex : 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
 .car_details {
     display: flex;
     justify-content: space-between;
@@ -9,22 +28,41 @@
     text-transform: uppercase;
     color: #17C7FF;
     margin-top: 35px;
+    margin-bottom : 25px;
+}
+.car_detail {
+    display : flex;
+}
+
+.car_detail div {
+    flex : 1;
+    margin-top: 3rem;;
+}
+.car_detail div:nth-child(3) {
+    flex : 1;
+    margin-top: 3rem;
+    text-align: right;
+}
+
+.car_detail img {
+    margin-right: 1rem;
+    margin-top: 3rem;;
+
 }
 .Overview{
-    margin-left: 270px;
+    width : 100%;
+    text-align: center;
 }
 .Facilities{
     margin-right: 270px;
 }
 .carname{
-    display: flex;
-    /* flex-direction: column; */
-    margin: 30px;
-    justify-content: space-around;
+    display: flex; 
+    justify-content: center;
+    flex-direction: column;
+    width : 30vw;
 }
-.ICON_CAR{
-    margin-right: -190px;
-}
+
 @media screen and (max-width: 700px) {
     .content{
         width: 321px;

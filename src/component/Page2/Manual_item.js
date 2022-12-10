@@ -18,7 +18,7 @@ const Manual_item = () => {
             </div>
         </div>
         <div className='CAR_manual'>
-          <div className=''><img src={CAR_MANUAL}alt=''/></div>
+          <img src={CAR_MANUAL}alt=''/>
         </div>
     </div>
   )
