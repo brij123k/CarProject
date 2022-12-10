@@ -10,7 +10,6 @@
   @media screen and (max-width: 700px){
     .container-slider {
       margin: 10px 10px 0;
-      width:335px;
       border-radius: 7px;
     }
   }

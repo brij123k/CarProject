@@ -73,11 +73,21 @@
     margin-left: 5px;
 }
 
-.CAR_manual img {
-    width: 1054px;
-    height: 480px;
-    margin-top: 19px;
-    margin-left: 142px;
-    margin-right: 80px;
+.CAR_manual {
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
 
+
+}
+
+.CAR_manual img {
+    width: 65vw;
+
+}
+
+.container-Manual {
+    overflow: hidden;
+    width : 100%;
 }

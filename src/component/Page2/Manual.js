@@ -6,7 +6,6 @@ import Cardata from '../Page2/car_data'
 const Manual = () => {
   return (
     <div className='Manual'>
-        <Header/>
         <Manualitem/>
         <Slider/>
         <Cardata/>
