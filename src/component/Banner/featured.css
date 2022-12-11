@@ -13,10 +13,18 @@
     text-align: center;
     margin: 12px;
     overflow-y : scroll;
+    white-space: nowrap;
+
 }
 .img_feat1{
     margin-right:40px;
 }
 .img_feat3{
     margin-left:40px;
+}
+
+@media screen and (max-width : 820px) {
+    .contaier_featured{
+        justify-content: space-between;
+    }
 }
