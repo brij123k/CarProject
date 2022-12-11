@@ -1,9 +1,16 @@
+.content {
+    display: inline;
+    text-align: center;
+vertical-align: middle;
+}
+
 .car_detail_val {
     font-weight: bold;
 }
 .container_cardata {
 
     display : flex;
+    flex-flow: row wrap;
     margin-left: 15vw;
     margin-right: 15vw;
 
@@ -18,6 +25,7 @@
 
 }
 .car_details {
+    min-width: 350px;
     display: flex;
     justify-content: space-between;
     font-family: 'Inter';
@@ -68,6 +76,14 @@
         width: 321px;
         font-size: 11px;
         font-weight: bold;
+    }
+
+    .container_cardata {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .carname {
+        width : 85vw;
     }
 }
 @media screen and (max-width: 700px) {

@@ -77,4 +77,17 @@
   .dot.active {
     background: rgb(32, 32, 32);
   }
+
+  .slider_container {
+
+    display: flex;
+    margin-top : 15px;
+    flex-wrap: nowrap;
+    overflow-x : scroll;
+  }
+  .slider_item {
+    width: 25vw;
+    height: auto;
+    margin-left: 10px;
+  }
  
