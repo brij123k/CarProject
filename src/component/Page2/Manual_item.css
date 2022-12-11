@@ -4,7 +4,7 @@
     margin-top: 50px;
 }
 .arrow img{
-    margin-left: 31px;
+    margin-left: -20px;
 }
 .data {
     display: flex;
@@ -33,7 +33,7 @@
 }
 
 .Enquire {
-    margin-right:141px;
+    margin-right:56px;
     text-align: center;
 }
 
@@ -83,11 +83,24 @@
 }
 
 .CAR_manual img {
-    width: 65vw;
+    width: 88vw;
+    margin-top: 23px;
 
 }
 
 .container-Manual {
     overflow: hidden;
     width : 100%;
+}
+.DETAIL{
+display: flex;
+position: absolute;
+margin-top: 52px;
+color: white;
+}
+.arrow1 img{
+    margin-left: 102px;
+    padding-right: 23px;
+    /* background: #FFFFFF; */
+
 }

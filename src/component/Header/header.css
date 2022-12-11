@@ -35,3 +35,50 @@
 .play_img {
     margin-right: 72px;
 }
+@media screen and (max-width: 700px) {
+    .border{
+   margin-left: 2px;
+    margin-top: 10px;
+    }
+}
+@media screen and (max-width: 700px) {
+    .border1{
+        margin-top: 33px;
+        margin-left: -47px;
+    }
+}
+@media screen and (max-width: 700px) {
+    .call-icon{
+        width: 34px;
+        height: 33px;
+    }
+}
+@media screen and (max-width: 700px) {
+    .call-icon img{
+        width: 15px;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .play_img img{
+        width: 116px;
+        height: auto;
+        margin-top: 25px;
+        margin-left: 5px;
+    }
+}
+@media screen and (max-width: 700px) {
+    .logo_img img{
+       margin-left: 13px;
+    }
+}
+@media screen and (max-width: 700px) {
+    .en1{
+        font-size: 14px;
+        width: 130px;
+    }
+}
+@media screen and (max-width: 700px) {
+    .num1{
+        font-size: 12px;
+    }
+}

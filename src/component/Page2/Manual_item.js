@@ -17,6 +17,11 @@ const Manual_item = () => {
                 <div className='Enquire'><button><img src={Enquire} alt=''/><span>Enquire</span></button></div>
             </div>
         </div>
+        <div className='DETAIL'>
+        <div className='arrow1'><img src={Arrow} alt=''/></div>
+            <div className='content1'>Car Details</div>
+        </div>
+        
         <div className='CAR_manual'>
           <img src={CAR_MANUAL}alt=''/>
         </div>
